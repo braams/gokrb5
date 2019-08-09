@@ -4,10 +4,10 @@ package credentials
 import (
 	"time"
 
+	"github.com/braams/gokrb5/iana/nametype"
+	"github.com/braams/gokrb5/keytab"
+	"github.com/braams/gokrb5/types"
 	"github.com/hashicorp/go-uuid"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/nametype"
-	"gopkg.in/jcmturner/gokrb5.v7/keytab"
-	"gopkg.in/jcmturner/gokrb5.v7/types"
 )
 
 const (

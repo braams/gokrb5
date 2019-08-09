@@ -9,8 +9,8 @@ import (
 	"time"
 	"unsafe"
 
+	"github.com/braams/gokrb5/types"
 	"github.com/jcmturner/gofork/encoding/asn1"
-	"gopkg.in/jcmturner/gokrb5.v7/types"
 )
 
 const (

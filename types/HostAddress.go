@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"net"
 
+	"github.com/braams/gokrb5/iana/addrtype"
 	"github.com/jcmturner/gofork/encoding/asn1"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/addrtype"
 )
 
 /*

@@ -4,11 +4,11 @@ import (
 	"encoding/hex"
 	"testing"
 
+	"github.com/braams/gokrb5/iana"
+	"github.com/braams/gokrb5/iana/msgtype"
+	"github.com/braams/gokrb5/iana/nametype"
+	"github.com/braams/gokrb5/test/testdata"
 	"github.com/stretchr/testify/assert"
-	"gopkg.in/jcmturner/gokrb5.v7/iana"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/msgtype"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/nametype"
-	"gopkg.in/jcmturner/gokrb5.v7/test/testdata"
 )
 
 func TestUnmarshalAPReq(t *testing.T) {
